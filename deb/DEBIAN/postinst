@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo python3 -m pip install Pipot
+mkdir Pipot
+useradd Pipot
+python3 -m pip install /opt/Pipot-1.0.tar.gz
+Systemctl enable Pipot

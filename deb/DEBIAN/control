@@ -1,0 +1,6 @@
+Package: Pipot
+version: 1.0
+Maintainer: Shirshu
+Description: Pi pot to filter the ip address with firewall
+Architecture: all
+Depends:python3

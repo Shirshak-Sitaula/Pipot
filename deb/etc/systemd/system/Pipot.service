@@ -1,0 +1,13 @@
+[Unit]
+Description=Pipot honeypot
+After=network.target
+
+[Service]
+Type=simple
+User=tcppot
+WorkingDirectory=/home/Pipot
+ExecStart=sudo python3 -m Pipot
+Restart=on-failure
+
+[Install]
+WantedBy=mult-user.target
